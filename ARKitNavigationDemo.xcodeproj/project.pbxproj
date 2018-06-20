@@ -50,6 +50,7 @@
 		A79518D41F7A1FF90030E21A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79518D31F7A1FF90030E21A /* Constants.swift */; };
 		A79518D61F7A24270030E21A /* ApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79518D51F7A24270030E21A /* ApplicationService.swift */; };
 		A7B30E7B1F79D9C600BDA025 /* StartViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */; };
+		E35AA04220DAE1E000FD1AD7 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AA04120DAE1E000FD1AD7 /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		A79518D31F7A1FF90030E21A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A79518D51F7A24270030E21A /* ApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationService.swift; sourceTree = "<group>"; };
 		A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E35AA04120DAE1E000FD1AD7 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 				A74AF0E61F6CA4B40000CD5F /* UIStoryboard+Extension.swift */,
 				A79518D11F7A1FB10030E21A /* StoryboardIdentifiableError.swift */,
 				A74AF0E41F6CA49E0000CD5F /* Double+Extension.swift */,
+				E35AA04120DAE1E000FD1AD7 /* Array+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				A74AF0DF1F6CA42E0000CD5F /* CLLocationCoordinate2D+Extension.swift in Sources */,
 				A74AF0CB1F6CA35D0000CD5F /* Coordinator.swift in Sources */,
 				A79518C21F7A1E4F0030E21A /* ControllerType.swift in Sources */,
+				E35AA04220DAE1E000FD1AD7 /* Array+Extension.swift in Sources */,
 				A79518CA1F7A1EE60030E21A /* LocationTranslation.swift in Sources */,
 				A74AF0E71F6CA4B40000CD5F /* UIStoryboard+Extension.swift in Sources */,
 				A79518D61F7A24270030E21A /* ApplicationService.swift in Sources */,
