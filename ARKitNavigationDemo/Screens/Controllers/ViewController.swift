@@ -268,6 +268,9 @@ extension ViewController:  Mapable {
         // this is for the map - no need to have it drag you just need to drop two pins
         // and get the direction from google roads api
         for location in locations { addSphere(for: location) }
+        // you only need your current location and the last one so this is a test
+        //addSphere(for: locations.first!)
+        //addSphere(for: locations.last!)
         print(locations)
         print(locations.count)
     }
